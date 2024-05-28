@@ -1,0 +1,27 @@
+.info {
+  background-color: white;
+  border-radius: 0.8rem;
+  width: 70%;
+  height: 6rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @include medium {
+    padding: 1rem 1.5rem;
+    height: fit-content;
+  }
+
+  @include small {
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5rem 2rem;
+    width: 75%;
+  }
+}

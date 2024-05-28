@@ -1,0 +1,55 @@
+.search-bar {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33rem;
+  display: flex;
+  border-radius: 0.8rem;
+  overflow: hidden;
+
+  @include small {
+    width: 89%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  input {
+    flex: 1;
+    padding: 1rem 1.5rem;
+
+    @include medium {
+      padding: 0.7rem 1rem;
+    }
+
+    @include small {
+      font-size: 1rem;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: $dark-gray;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  button {
+    background-color: $very-dark-gray;
+    padding: 0 1.5rem;
+
+    &:hover {
+      background-color: rgb(72, 72, 72);
+      cursor: pointer;
+    }
+
+    img {
+      width: 0.7rem;
+    }
+  }
+}

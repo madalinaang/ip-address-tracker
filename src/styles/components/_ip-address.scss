@@ -1,0 +1,29 @@
+.ip-address {
+  position: relative;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+
+    color: white;
+    font-weight: $font-weight-medium;
+    font-size: 150%;
+
+    @include medium {
+      font-size: 110%;
+    }
+
+    @include small {
+      font-size: 110%;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

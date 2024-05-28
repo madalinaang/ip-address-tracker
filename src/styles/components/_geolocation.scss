@@ -1,0 +1,22 @@
+.geolocation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  @include small {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .divider {
+    height: 5rem;
+    width: 0.05rem;
+    background-color: $dark-gray;
+    opacity: 50%;
+
+    @include small {
+      display: none;
+    }
+  }
+}

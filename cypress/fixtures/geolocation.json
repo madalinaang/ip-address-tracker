@@ -1,0 +1,12 @@
+{
+  "ip": "1.1.1.1",
+  "location": {
+    "city": "City",
+    "region": "Region",
+    "postalCode": "PostalCode",
+    "timezone": "+1",
+    "lat": "0",
+    "lng": "0"
+  },
+  "isp": "Internet Service Provider"
+}
